@@ -2,7 +2,7 @@ Customizing the MOP with hooks
 
 - GroovyObject
     - Employee.groovy
-- invokeMethod()
+- invokeMethod(): invodeMethod is called when any method is called. methodMissing is only called when method is missing.
 - get property
 - property missing
 - set property

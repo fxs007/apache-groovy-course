@@ -2,11 +2,13 @@ package com.therealdanvega.traits
 
 trait SpeakingAbility {
 
-    public String a
-    private String b
+    public String name
+    private String age
 
     String speak(){
-        "I'm Speaking!"
+        "$name $age is speaking!"
     }
+	
+	abstract String foo()
 
 }

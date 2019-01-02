@@ -17,6 +17,7 @@ class Developer {
     def getProperty(String property) {
         println "getProperty called..."
         metaClass.getProperty(this,property)
+
     }
 
     void setProperty(String property, Object newValue) {

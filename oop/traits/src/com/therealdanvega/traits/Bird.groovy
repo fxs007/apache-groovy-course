@@ -1,8 +1,8 @@
 package com.therealdanvega.traits
 
-class Bird implements FlyingAbility, SpeakingAbility {
+class Bird implements SpeakingAbility, FlyingAbility {
 
-    @Override
+//    @Override
     String foo() {
         return null
     }

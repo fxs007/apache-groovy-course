@@ -1,12 +1,12 @@
 package com.therealdanvega.traits
 
 trait FlyingAbility {
+	
+	String location
 
     String fly(){
-        "I'm Flying!"
+        "I'm Flying at $location!"
     }
-
-    abstract String foo()
 
     private String bar() {
         "bar"

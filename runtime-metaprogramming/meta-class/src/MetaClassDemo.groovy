@@ -7,7 +7,8 @@
 //e.writeCode()
 
 class Developer {
-
+//every class object has a property named metaClass
+//meteClass points to an Expando
 }
 // per instance
 Developer dan = new Developer()

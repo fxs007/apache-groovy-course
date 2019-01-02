@@ -3,3 +3,4 @@ Developer developer = new Developer(first: "Dan",last: "Vega",email: "danvega@gm
 developer.writeCode("Groovy")
 println developer.first
 developer.languages = ["Groovy","Java"]
+def o1 = new GroovyObject();
